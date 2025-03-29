@@ -1,14 +1,10 @@
 {
   "name": "react-webpack-scaffold",
   "version": "0.1.0",
-  "private": true,
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
   "scripts": {
-    "dev": "next dev",
-    "build": "webpack && tsc",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "webpack && tsc"
   },
   "dependencies": {
     "react": "^19",
