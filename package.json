@@ -1,0 +1,25 @@
+{
+  "name": "react-webpack-scaffold",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "dev": "next dev",
+    "build": "webpack && tsc",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "^19",
+    "react-dom": "^19"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5",
+    "webpack-cli": "^6.0.1"
+  }
+}
