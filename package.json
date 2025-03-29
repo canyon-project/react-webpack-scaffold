@@ -1,11 +1,12 @@
 {
   "name": "react-webpack-scaffold-9050",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
   "files": ["dist"],
   "scripts": {
-    "build": "webpack && tsc"
+    "build": "webpack && tsc",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "react": "^19",
