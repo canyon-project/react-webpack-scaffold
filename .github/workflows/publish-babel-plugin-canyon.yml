@@ -1,4 +1,4 @@
-name: Publish react-webpack-scaffold
+name: Publish react-webpack-scaffold-9050
 
 on:
   push:
@@ -17,6 +17,6 @@ jobs:
           node-version: 20
           registry-url: https://registry.npmjs.org/
       - run: pnpm install
-      - run: pnpm --filter=react-webpack-scaffold publish -f --no-git-checks --access=public
+      - run: pnpm --filter=react-webpack-scaffold-9050 publish -f --no-git-checks --access=public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NODE_AUTH_TOKEN}}
